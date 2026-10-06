@@ -5,6 +5,12 @@
 ## Topics covered
 *What topics were covered in this session*
 
+-The topics that I have covered in session 1 consist of downloaded git and using GitHub
+-Revision of operating system structure
+-Installing virtual oracle box which allows me to create VM
+-Understanding what virtualisation is
+-installing vagrant 
+-understanding what Vagrant Networking and provisioning is 
 
 
 ## Personal Notes and research following this session
@@ -14,6 +20,8 @@
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
+I have completed every exercise 1.4 and 1.5 
+
 
 
 
