@@ -10,7 +10,13 @@
 ## Personal Notes and research following this session
 *Which class sessions and personal research refers to technology in this proposal. Link to examples.*
 
-
+to commit work use
+```
+git add --all
+git commit -m 'some message'
+git push
+(ente4r your passphjrase)
+```
 
 ## Exercises and results
 *What exercises did you complete. What results. Screen shots and notes*
