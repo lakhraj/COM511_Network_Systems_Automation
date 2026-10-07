@@ -44,12 +44,16 @@ This image shows how I have successfully connected ubuntu VM with the ip address
 
 This images basically shows I have successfully connected rocky Linux VM With the Ip address of 192.168.56.30 using SSH as the ansible user 
 
+exercise 2.3
+
 ![test](../images/exercise%202.3%20first%201.png)
 
 I have SSH into ansible controller making me a user allowing me to able a ping command allowing me test connectivity 
 
 ![test](../images/exercise%202.3%20first%204.png)
 This images suggest to us that ansible is working effectively on the main/control machine .all 3 VM was successful the pong suggest to us that ansible can connect and execute a module on each Virtual machine. Overall shows that communication can take place. The command is very effective as it tells us whether ansible can connect to every machine in the inventory successfully.
+
+exercise 2.4
 
 ![test](../images/exercise%202.4%20first%204.png)
 
