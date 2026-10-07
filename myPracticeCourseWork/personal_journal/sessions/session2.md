@@ -22,6 +22,8 @@ git push
 *What exercises did you complete. What results. Screen shots and notes*
 
 
+![test](../images/exercise%202.2%20first%201.png)
+
 
 ## Summary of learning
 *What did you learn through these exercises*
