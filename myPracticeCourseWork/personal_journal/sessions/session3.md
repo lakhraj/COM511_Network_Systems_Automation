@@ -21,7 +21,7 @@
 
 I have completed exercises 3.1 , 3.2 and 3.3
 
-3.1
+3.1-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="724" height="469" alt="exercise 3 1 first 1" src="https://github.com/user-attachments/assets/8c55c1b5-0f4c-434d-a00b-16a6bada70f2" />
 
@@ -43,7 +43,7 @@ This image juts shows that dnsmasq is running without any error or problem
 
 Within the two virtual machine ubuntu  1 and 2 shows they can successfully   ping and communicate with each other and allows ansible controller to have Ip address of the vms for communication. The ping responds with 4 sequence with no packet loss during the commuincation.
 
-3.2
+3.2-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="590" height="130" alt="exercise 3 2 first 2" src="https://github.com/user-attachments/assets/72656399-6937-474c-9143-19086dbe24c8" />
 
@@ -57,6 +57,33 @@ This image shows that I have successfully implemented  ansible playbook on the t
 
 DNS resolution is working for both virtual machine ubuntu internally and externally.
 
+<img width="557" height="317" alt="exercise 3 2 first 5" src="https://github.com/user-attachments/assets/0cc6d8d9-3aa2-4910-a7f5-e48eb5ad50e8" />
+
+I have SSH into my  ubuntu virtual machine from ansible controller. SSH is very effective provides a secure communication with the IP address of the VM. This also shows that the SSH key is implemented which helps provide a strong security, overall it shows the remote connection is working.
+
+<img width="695" height="150" alt="exercise 3 2 first 6" src="https://github.com/user-attachments/assets/b93725c7-a9ef-4754-a40e-bab9914390aa" />
+
+This images shows that DNS server is working effectively ,port 53 manages DNS quire supporting by TCP allows larger response to take place this screenshot shows the IP address has been given a domain name useful for user as they can request what webpage they wat to use by entering the domain name rather then knowing the IP address .
+
+3.3------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="868" height="470" alt="exercise 3 3 first 1" src="https://github.com/user-attachments/assets/c5e90a16-5339-4021-8cc9-9aa35e3defd9" />
+
+This shows that I am running the ansible playbook which is a file that is filled up with configuration and what to downloaded and install it has successfully implemented  DNS server with no packet being loss or failed.  
+
+<img width="562" height="255" alt="exercise 3 3 first 2" src="https://github.com/user-attachments/assets/8e853134-3476-4626-8f8b-83042507bba0" />
+
+BIND9 has been installed and is running with no error.BIND9 is very useful as it helps converts the domain name into IP address 
+
+<img width="597" height="521" alt="exercise 3 3 first 3" src="https://github.com/user-attachments/assets/b39ac1ad-4097-4be6-83fc-1a6c5d8b09fe" />
+
+I have started  the testing of DNS within the ubuntu machine I have used the dig command to help me find the IP address that is associated with domain name.
+
+<img width="431" height="226" alt="exercise 3 3 first 4" src="https://github.com/user-attachments/assets/ec095a77-26e1-4664-887d-ed65c548976a" />
+
+The DNS server at 192.168.100.250 is successfully fixing google.com to ipv4 address
 
 ## Summary of learning
 *What did you learn through these exercises*
+
+I have learned how to configure DHCP and DNS server using ansible controller. I also learned how to test and make sure they are all running by using commands such as dig.  
