@@ -11,11 +11,11 @@ $TTL 86400
 @       IN      NS      ns1.{{ domain_name }}.
 
 ; Static reverse entry for name server itself
-10.2.0.192			IN	PTR	ns1.{{ domain_name }}.
+250			IN	PTR	ns1.{{ domain_name }}.
 
 ; Reverse pointers (PTR) - last octet of the IPs
 
 {% for host in groups['company_nodes'] %}
-{{ hostvars[host]['ansible_host']  }}	IN	PTR	{{ host }}.{{ domain_name }}.
+{{ hostvars[host]['ansible_host'].split('.')[-1] }} IN PTR {{ host }}.{{ domain_name }}. 
 {% endfor %}
 
